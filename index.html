@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Personal Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;600;800&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <div class="grid">
+
+    <!-- Clock -->
+    <div class="card clock-card">
+      <div id="time">00:00:00</div>
+      <div id="date"></div>
+    </div>
+
+    <!-- Weather -->
+    <div class="card weather-card">
+      <div class="card-label">Weather</div>
+      <div id="weather-icon">🌤️</div>
+      <div id="weather-city">Nairobi</div>
+      <div id="weather-temp">—°C</div>
+      <div id="weather-desc">Loading...</div>
+    </div>
+
+    <!-- Quote -->
+    <div class="card quote-card">
+      <div class="card-label">Quote of the Moment</div>
+      <blockquote id="quote-text">Loading quote...</blockquote>
+      <button id="new-quote-btn">New Quote ↻</button>
+    </div>
+
+    <!-- To-Do -->
+    <div class="card todo-card">
+      <div class="card-label">To-Do List</div>
+      <div class="todo-input-row">
+        <input type="text" id="todo-input" placeholder="Add a task..." />
+        <button id="todo-add-btn">Add</button>
+      </div>
+      <ul id="todo-list"></ul>
+    </div>
+
+  </div>
+
+  <script src="JavaScript/clock.js"></script>
+  <script src="JavaScript/weather.js"></script>
+  <script src="JavaScript/quote.js"></script>
+  <script src="JavaScript/to-do-list.js"></script>
+</body>
+</html>
