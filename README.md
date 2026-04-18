@@ -21,7 +21,6 @@ open dashboard.html
 ```
 
 ## Customization
-
 - **Quotes** — Edit the `QUOTES` array in the script
 - **Fallback city** — Change the coordinates in `fetchWeather(-1.2864, 36.8172, 'Nairobi, KE')`
 - **Colors** — Edit the CSS variables in `:root`
