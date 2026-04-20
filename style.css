@@ -153,6 +153,12 @@ body {
   background: rgba(200, 240, 78, 0.08);
   border-color: var(--accent);
 }
+#quote-author {
+  font-size: 0.85rem;
+  opacity: 0.6;
+  margin-top: 4px;
+  font-style: italic;
+}
 
 /* ── To-Do Card ── */
 .todo-card { grid-column: 1 / -1; }
