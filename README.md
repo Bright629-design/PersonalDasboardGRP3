@@ -1,6 +1,6 @@
 # Personal Dashboard
 
-A dark-themed personal dashboard built with pure HTML, CSS, and vanilla JavaScript — no frameworks, no build tools, just one file.
+A dark-themed personal dashboard built with pure HTML, CSS, and JavaScript — no frameworks, no build tools, just one file.
 
 ## Features
 
