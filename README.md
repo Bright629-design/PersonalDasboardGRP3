@@ -27,6 +27,3 @@ open dashboard.html
 
 ## Tech
 HTML · CSS · Vanilla JS · [Open-Meteo API](https://open-meteo.com/) · [Nominatim](https://nominatim.org/)
-
-## License
-MIT
